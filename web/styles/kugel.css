@@ -1,2 +1,107 @@
+/* Copyright 2016 Ryan Kugel & Dylan Burnett*/
 
+body {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+  margin-left: 1in;
+  margin-right: 1in;
+}
+
+header p {
+  font-size: 90%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 130%;
+  margin-bottom: 0;
+  margin-top: 1in;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 85%;
+  margin: 0;
+}
+
+#education {
+  margin: 0;
+}
+
+#education p {
+  font-size: 85%;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  font-size: 80%;
+}
+
+p {
+  font-size: 85%;
+  margin: 0;
+}
+
+li:last-child {
+  margin-bottom: 2%;
+}
+
+.dateA {
+  float: right;
+}
+
+.dateB {
+  display: none;
+}
+
+.title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 70%;
+  margin-bottom: 1in;
+  margin-top: 10%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  header h1 {
+    margin-top: .5in;
+  }
+
+  body {
+    margin-left: .5in;
+    margin-right: .5in;
+  }
+
+  li:last-child {
+    margin-bottom: 5%;
+  }
+
+  .dateA {
+    display: none;
+  }
+  
+  .dateB {
+    display: inherit;
+  }
+
+  footer {
+    margin-top: 5%;
+    margin-bottom: .5in;
+  }
+}
 
